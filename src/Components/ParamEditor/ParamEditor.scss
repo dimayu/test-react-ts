@@ -1,0 +1,18 @@
+@import "../../baseStyles/variables";
+
+.products {
+  max-width: 800px;
+  margin: $offset * 5 auto;
+  font-size: 20px;
+
+    &__item {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: $offset * 5;
+      margin-bottom: $offset * 5;
+
+      &__value {
+        padding: 4px;
+      }
+    }
+}
